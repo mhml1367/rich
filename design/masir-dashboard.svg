@@ -1,0 +1,276 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1000" viewBox="0 0 1440 1000" role="img" aria-labelledby="title desc" direction="ltr" fill="#182b3a">
+  <title id="title">ماکاپ داشبورد بازی مسیر ثروت</title>
+  <desc id="desc">نمای راست‌چین بازی راهبردی مالی با نقشهٔ وکتوری ۲.۵ بعدی، وضعیت مالی، بازار و فرم سفارش.</desc>
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="7"/>
+      <feOffset dx="0" dy="5"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.10"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="mapgrid" width="42" height="42" patternUnits="userSpaceOnUse" patternTransform="skewY(-30)">
+      <path d="M42 0H0V42" fill="none" stroke="#d8e2dc" stroke-width="1" opacity=".6"/>
+    </pattern>
+    <style>
+      text{font-family:Vazirmatn,"Segoe UI",Tahoma,sans-serif}
+      .muted{fill:#718078}.tiny{font-size:11px}.small{font-size:13px}.body{font-size:15px}.label{font-size:12px;font-weight:600}.heading{font-size:18px;font-weight:700}.num{font-size:23px;font-weight:750;letter-spacing:-.4px}.card{fill:#fffefa;stroke:#e0e5df;stroke-width:1.2}.outline{stroke:#182b3a;stroke-width:2;stroke-linejoin:round;stroke-linecap:round}
+    </style>
+  </defs>
+  <rect width="1440" height="1000" fill="#f5f3ec"/>
+
+  <!-- Top HUD -->
+  <rect x="0" y="0" width="1440" height="82" fill="#fffefa"/>
+  <path d="M0 81.5H1440" stroke="#d8ded9"/>
+  <g transform="translate(1292 20)">
+    <path d="M0 15 15 0l15 15-15 15Z" fill="#176b63"/>
+    <path d="M15 7v16M7 15h16" stroke="#fffefa" stroke-width="2" stroke-linecap="round"/>
+    <text x="119" y="15" text-anchor="end" font-size="17" font-weight="800">مسیر ثروت</text>
+    <text x="119" y="35" text-anchor="end" class="tiny muted">بازی راهبرد مالی</text>
+  </g>
+  <g>
+    <rect x="590" y="20" width="164" height="42" rx="12" fill="#f5f3ec"/>
+    <circle cx="728" cy="41" r="5" fill="#4d9b70"/>
+    <text x="712" y="46" text-anchor="end" class="small" font-weight="700">مهر ۱۴۰۵</text>
+    <text x="648" y="46" text-anchor="end" class="tiny muted">ماه ۰۷ از ۳۶</text>
+    <rect x="774" y="20" width="180" height="42" rx="12" fill="#fff5e2" stroke="#f0d9a7"/>
+    <circle cx="930" cy="41" r="5" fill="#dda746"/>
+    <text x="915" y="46" text-anchor="end" class="small" font-weight="700">مهلت تصمیم</text>
+    <text x="814" y="46" text-anchor="end" class="small" fill="#9b6a15" font-weight="800">۰۸:۴۲</text>
+    <rect x="1041" y="20" width="182" height="42" rx="12" fill="#e9f4ee"/>
+    <path d="M1194 36a9 9 0 1 0 0 10M1194 36v7h-7" fill="none" stroke="#28744d" stroke-width="1.7" stroke-linecap="round"/>
+    <text x="1177" y="46" text-anchor="end" class="small" font-weight="650">همگام‌سازی فعال</text>
+  </g>
+  <g transform="translate(42 18)">
+    <circle cx="24" cy="23" r="22" fill="#dcefe6"/>
+    <text x="24" y="29" text-anchor="middle" font-size="15" font-weight="750" fill="#176b63">م</text>
+    <text x="98" y="20" text-anchor="start" class="small" font-weight="700">مینا رضایی</text>
+    <text x="98" y="41" text-anchor="start" class="tiny muted">سرمایه‌گذار نوپا</text>
+    <path d="m190 23 5 5 5-5" fill="none" stroke="#718078" stroke-width="1.6"/>
+  </g>
+
+  <!-- Right navigation -->
+  <rect x="1270" y="82" width="170" height="918" fill="#fffefa"/>
+  <path d="M1270 82V1000" stroke="#d8ded9"/>
+  <g class="small" font-weight="600">
+    <rect x="1284" y="126" width="142" height="48" rx="12" fill="#e9f4ee"/>
+    <rect x="1411" y="140" width="3" height="20" rx="2" fill="#176b63"/>
+    <path d="M1401 143 1392 135l-9 8v13h18Z" fill="none" stroke="#176b63" stroke-width="1.8" stroke-linejoin="round"/>
+    <text x="1373" y="156" text-anchor="end" fill="#176b63">نمای شهر</text>
+    <path d="M1400 214h-17v20h17ZM1383 220h17" fill="none" stroke="#718078" stroke-width="1.6"/>
+    <text x="1373" y="229" text-anchor="end" fill="#52616a">دارایی‌ها</text>
+    <path d="M1383 283h18v18h-18zM1386 288h12M1386 293h9" fill="none" stroke="#718078" stroke-width="1.6"/>
+    <text x="1373" y="297" text-anchor="end" fill="#52616a">بازار</text>
+    <path d="M1383 352h18v18h-18zM1387 365l4-5 3 2 4-6" fill="none" stroke="#718078" stroke-width="1.6"/>
+    <text x="1373" y="365" text-anchor="end" fill="#52616a">گزارش‌ها</text>
+  </g>
+  <path d="M1290 405H1420" stroke="#e6e9e4"/>
+  <text x="1410" y="439" text-anchor="end" class="tiny muted" font-weight="700">وضعیت شهر</text>
+  <circle cx="1404" cy="468" r="4" fill="#4d9b70"/>
+  <text x="1390" y="472" text-anchor="end" class="small">۴ بازیکن فعال</text>
+  <circle cx="1404" cy="499" r="4" fill="#dda746"/>
+  <text x="1390" y="503" text-anchor="end" class="small">بازار در نوسان</text>
+  <g transform="translate(1290 900)">
+    <rect width="130" height="70" rx="12" fill="#f5f3ec"/>
+    <text x="112" y="27" text-anchor="end" class="tiny muted">نسخهٔ بازی</text>
+    <text x="112" y="50" text-anchor="end" class="small" font-weight="700">شهر پویا ۰۱</text>
+  </g>
+
+  <!-- KPI row -->
+  <g filter="url(#shadow)">
+    <rect class="card" x="40" y="104" width="282" height="82" rx="14"/>
+    <rect class="card" x="338" y="104" width="282" height="82" rx="14"/>
+    <rect class="card" x="636" y="104" width="282" height="82" rx="14"/>
+    <rect class="card" x="934" y="104" width="298" height="82" rx="14"/>
+  </g>
+  <g>
+    <circle cx="284" cy="145" r="19" fill="#e9f4ee"/>
+    <text x="284" y="151" text-anchor="middle" font-size="17" fill="#176b63" font-weight="800">ت</text>
+    <text x="254" y="132" text-anchor="end" class="small muted">موجودی نقد</text>
+    <text x="254" y="161" text-anchor="end" class="num">۱۲٬۴۸۰٬۰۰۰</text>
+    <text x="254" y="178" text-anchor="end" class="tiny muted">تومان</text>
+
+    <circle cx="582" cy="145" r="19" fill="#edf2f7"/>
+    <path d="M576 150v-10m6 10v-15m6 15v-7" stroke="#5788b8" stroke-width="2" stroke-linecap="round"/>
+    <text x="552" y="132" text-anchor="end" class="small muted">حقوق ماهانه</text>
+    <text x="552" y="161" text-anchor="end" class="num">۶٬۱۰۸٬۰۰۰</text>
+    <text x="552" y="178" text-anchor="end" class="tiny" fill="#28744d">↑ ۱٫۸٪ این ماه</text>
+
+    <circle cx="880" cy="145" r="19" fill="#fff3e9"/>
+    <path d="M872 148h16m-13-4v-5h10v5m-9 8v-4m8 4v-4" fill="none" stroke="#d97860" stroke-width="1.7" stroke-linejoin="round"/>
+    <text x="850" y="132" text-anchor="end" class="small muted">اجارهٔ ماهانه</text>
+    <text x="850" y="161" text-anchor="end" class="num">۲٬۰۲۸٬۰۰۰</text>
+    <text x="850" y="178" text-anchor="end" class="tiny muted">تومان</text>
+
+    <circle cx="1194" cy="145" r="19" fill="#fff5e2"/>
+    <path d="M1186 150l6-10 4 6 5-8" fill="none" stroke="#b77a20" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="1164" y="132" text-anchor="end" class="small muted">درآمد غیرفعال</text>
+    <text x="1164" y="161" text-anchor="end" class="num">۱٬۳۵۰٬۰۰۰</text>
+    <text x="1164" y="178" text-anchor="end" class="tiny muted">تومان / ماه</text>
+  </g>
+
+  <!-- Order panel left -->
+  <g filter="url(#shadow)"><rect x="40" y="207" width="282" height="548" rx="16" class="card"/></g>
+  <text x="298" y="242" text-anchor="end" class="heading">ثبت سفارش</text>
+  <text x="298" y="264" text-anchor="end" class="small muted">تصمیم مالی این دوره</text>
+  <rect x="60" y="281" width="242" height="43" rx="11" fill="#f1f3ef"/>
+  <rect x="62" y="283" width="118" height="39" rx="9" fill="#176b63"/>
+  <text x="121" y="308" text-anchor="middle" class="small" fill="#fffefa" font-weight="700">خرید</text>
+  <text x="242" y="308" text-anchor="middle" class="small muted" font-weight="700">فروش</text>
+  <text x="298" y="356" text-anchor="end" class="label">نوع دارایی</text>
+  <rect x="60" y="368" width="242" height="46" rx="10" fill="#fffefa" stroke="#d8ded9"/>
+  <circle cx="274" cy="391" r="11" fill="#fff3d4"/>
+  <path d="m270 391 3 3 5-6" fill="none" stroke="#b77a20" stroke-width="1.6"/>
+  <text x="251" y="397" text-anchor="end" class="body" font-weight="650">طلا</text>
+  <path d="m82 387 5 5 5-5" fill="none" stroke="#718078" stroke-width="1.5"/>
+  <text x="298" y="446" text-anchor="end" class="label">مبلغ سفارش</text>
+  <rect x="60" y="458" width="242" height="50" rx="10" fill="#fffefa" stroke="#176b63" stroke-width="1.5"/>
+  <text x="282" y="489" text-anchor="end" font-size="18" font-weight="700">۱٬۰۰۰٬۰۰۰</text>
+  <text x="78" y="488" text-anchor="start" class="small muted">تومان</text>
+  <text x="298" y="533" text-anchor="end" class="tiny muted">موجودی قابل سفارش: ۱۲٬۴۸۰٬۰۰۰ تومان</text>
+  <rect x="60" y="552" width="242" height="47" rx="11" fill="#176b63"/>
+  <text x="181" y="582" text-anchor="middle" class="body" fill="#fffefa" font-weight="750">ثبت سفارش خرید</text>
+  <path d="m274 575 8 0m-4-4 4 4-4 4" fill="none" stroke="#fffefa" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="60" y="617" width="242" height="113" rx="12" fill="#f4f7f3"/>
+  <circle cx="278" cy="640" r="12" fill="#e3eedf"/>
+  <path d="M278 633v14m-5-7h10" stroke="#4d9b70" stroke-width="1.5"/>
+  <text x="257" y="644" text-anchor="end" class="label">نگاه بازار</text>
+  <text x="282" y="671" text-anchor="end" class="small">شاخص طلا این ماه</text>
+  <text x="282" y="693" text-anchor="end" class="body" fill="#28744d" font-weight="750">۷٫۲٪ رشد</text>
+  <text x="282" y="714" text-anchor="end" class="tiny muted">نوسان بالاست؛ دارایی‌ها را متنوع کن.</text>
+
+  <!-- City map panel -->
+  <g filter="url(#shadow)"><rect x="340" y="207" width="588" height="548" rx="16" class="card"/></g>
+  <text x="902" y="242" text-anchor="end" class="heading">شهر در یک نگاه</text>
+  <text x="902" y="264" text-anchor="end" class="small muted">نقشهٔ زندهٔ اقتصاد اتاق</text>
+  <rect x="360" y="282" width="548" height="451" rx="13" fill="#eaf1ec"/>
+  <rect x="360" y="282" width="548" height="451" rx="13" fill="url(#mapgrid)"/>
+  <!-- isometric streets -->
+  <path d="M386 590 614 458l270 156-227 131Z" fill="#d6dfd8" stroke="#c5d2c9" stroke-width="1.5"/>
+  <path d="m443 623 227-131m-114 196 228-132m-284 99 229-132m-170 167 229-132" fill="none" stroke="#f9faf5" stroke-width="17" stroke-linecap="round"/>
+  <path d="m443 623 227-131m-114 196 228-132m-284 99 229-132m-170 167 229-132" fill="none" stroke="#c6d2c9" stroke-width="1.2" stroke-dasharray="4 7"/>
+  <path d="m476 382 350 202m-57-229L420 555" fill="none" stroke="#f9faf5" stroke-width="16" stroke-linecap="round"/>
+  <!-- housing plots -->
+  <g class="outline">
+    <path d="m405 407 74-43 55 32-74 43Z" fill="#b9d6c4"/>
+    <path d="m405 407 0 50 55 33v-51Z" fill="#8fb99f"/>
+    <path d="m460 439 74-43v50l-74 44Z" fill="#6f9c81"/>
+    <path d="m432 397 33-19 31 18-33 19Z" fill="#fffefa"/>
+    <path d="m432 397v30l31 18v-30Z" fill="#dcefe6"/>
+    <path d="m463 415 33-19v30l-33 19Z" fill="#c1decd"/>
+    <path d="m482 386 20-12 25 15-20 12Z" fill="#fffefa"/>
+    <path d="m482 386v28l25 15v-28Z" fill="#dcefe6"/>
+    <path d="m507 401 20-12v28l-20 12Z" fill="#c1decd"/>
+  </g>
+  <!-- market -->
+  <g class="outline">
+    <path d="m662 379 79-45 69 40-79 46Z" fill="#f1d28b"/>
+    <path d="m662 379v59l69 41v-59Z" fill="#d9ae5e"/>
+    <path d="m731 420 79-46v59l-79 46Z" fill="#bc8b3d"/>
+    <path d="m680 381 59-34 53 31-59 35Z" fill="#fffefa"/>
+    <path d="m680 381v21l53 31v-20Z" fill="#f2e6c7"/>
+    <path d="m733 413 59-35v21l-59 34Z" fill="#e3c98c"/>
+    <path d="M709 385v20m23-31v20m24-5v20" stroke="#b77a20" fill="none"/>
+  </g>
+  <!-- workshop -->
+  <g class="outline">
+    <path d="m510 544 82-47 64 37-82 47Z" fill="#b9cce0"/>
+    <path d="m510 544v55l64 38v-56Z" fill="#829db8"/>
+    <path d="m574 581 82-47v55l-82 48Z" fill="#5f7d9b"/>
+    <path d="m527 544 63-36 49 29-63 37Z" fill="#edf2f7"/>
+    <path d="m527 544v20l49 29v-19Z" fill="#cbd9e6"/>
+    <path d="m576 574 63-37v20l-63 36Z" fill="#9db2c8"/>
+    <path d="M548 555v22m15-31v21m15-31v22" stroke="#5788b8" fill="none"/>
+  </g>
+  <!-- mobility district -->
+  <g class="outline">
+    <path d="m745 538 65-38 52 30-65 38Z" fill="#ecc8b8"/>
+    <path d="m745 538v47l52 31v-48Z" fill="#cf9d89"/>
+    <path d="m797 568 65-38v47l-65 39Z" fill="#aa7867"/>
+    <path d="m761 540 48-28 34 20-48 28Z" fill="#fffefa"/>
+    <path d="m761 540v17l34 20v-17Z" fill="#f1dfd8"/>
+    <path d="m795 560 48-28v17l-48 28Z" fill="#dfb6a8"/>
+    <circle cx="779" cy="560" r="7" fill="#d97860" stroke="#182b3a"/>
+    <circle cx="812" cy="541" r="7" fill="#d97860" stroke="#182b3a"/>
+  </g>
+  <!-- trees and map labels -->
+  <g stroke="#182b3a" stroke-width="1.6" stroke-linejoin="round">
+    <path d="m396 530 14-22 14 22-14 8Z" fill="#78aa83"/><path d="m410 538v18" fill="none"/>
+    <path d="m833 468 13-21 13 21-13 8Z" fill="#78aa83"/><path d="m846 476v15" fill="none"/>
+    <path d="m684 617 13-21 13 21-13 8Z" fill="#78aa83"/><path d="m697 625v15" fill="none"/>
+  </g>
+  <g>
+    <rect x="398" y="331" width="112" height="29" rx="9" fill="#fffefa" stroke="#d7e2da"/>
+    <circle cx="493" cy="345" r="4" fill="#4d9b70"/><text x="482" y="350" text-anchor="end" class="tiny" font-weight="700">محلهٔ مسکونی</text>
+    <rect x="704" y="312" width="94" height="29" rx="9" fill="#fffefa" stroke="#eadbb7"/>
+    <circle cx="782" cy="326" r="4" fill="#dda746"/><text x="771" y="331" text-anchor="end" class="tiny" font-weight="700">بازار شهر</text>
+    <rect x="488" y="640" width="115" height="29" rx="9" fill="#fffefa" stroke="#d8e1e9"/>
+    <circle cx="587" cy="654" r="4" fill="#5788b8"/><text x="576" y="659" text-anchor="end" class="tiny" font-weight="700">کارگاه‌ها</text>
+    <rect x="750" y="608" width="105" height="29" rx="9" fill="#fffefa" stroke="#ead7cf"/>
+    <circle cx="839" cy="622" r="4" fill="#d97860"/><text x="828" y="627" text-anchor="end" class="tiny" font-weight="700">حمل‌ونقل</text>
+  </g>
+  <g transform="translate(874 300)">
+    <circle cx="12" cy="12" r="12" fill="#fffefa" stroke="#d8ded9"/>
+    <path d="M8 12h8m-4-4v8" stroke="#52616a" stroke-width="1.6" stroke-linecap="round"/>
+    <circle cx="12" cy="45" r="12" fill="#fffefa" stroke="#d8ded9"/>
+    <path d="M8 45h8" stroke="#52616a" stroke-width="1.6" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(380 684)">
+    <rect width="191" height="34" rx="10" fill="#fffefa" stroke="#d8ded9"/>
+    <circle cx="167" cy="17" r="5" fill="#4d9b70"/><text x="153" y="22" text-anchor="end" class="tiny" font-weight="650">ساختمان شما</text>
+    <circle cx="82" cy="17" r="5" fill="#dda746"/><text x="68" y="22" text-anchor="end" class="tiny" font-weight="650">فرصت بازار</text>
+  </g>
+
+  <!-- Right-side account and market panels -->
+  <g filter="url(#shadow)"><rect x="946" y="207" width="286" height="254" rx="16" class="card"/></g>
+  <text x="1207" y="242" text-anchor="end" class="heading">سبد دارایی</text>
+  <text x="1207" y="264" text-anchor="end" class="small muted">ارزش اسمی کل</text>
+  <text x="1207" y="301" text-anchor="end" class="num">۱۸٬۶۵۰٬۰۰۰</text>
+  <text x="1207" y="321" text-anchor="end" class="tiny muted">تومان</text>
+  <rect x="970" y="342" width="238" height="10" rx="5" fill="#e9ede8"/>
+  <rect x="970" y="342" width="111" height="10" rx="5" fill="#176b63"/>
+  <rect x="1082" y="342" width="65" height="10" fill="#dda746"/>
+  <rect x="1148" y="342" width="38" height="10" fill="#5788b8"/>
+  <rect x="1187" y="342" width="21" height="10" rx="5" fill="#d97860"/>
+  <g class="tiny">
+    <circle cx="1199" cy="383" r="4" fill="#176b63"/><text x="1186" y="387" text-anchor="end">نقد</text><text x="1106" y="387" text-anchor="end" font-weight="700">۶۷٪</text>
+    <circle cx="1040" cy="383" r="4" fill="#dda746"/><text x="1027" y="387" text-anchor="end">طلا</text><text x="974" y="387" text-anchor="end" font-weight="700">۱۹٪</text>
+    <circle cx="1199" cy="420" r="4" fill="#5788b8"/><text x="1186" y="424" text-anchor="end">تجهیزات</text><text x="1106" y="424" text-anchor="end" font-weight="700">۹٪</text>
+    <circle cx="1040" cy="420" r="4" fill="#d97860"/><text x="1027" y="424" text-anchor="end">خودرو</text><text x="974" y="424" text-anchor="end" font-weight="700">۵٪</text>
+  </g>
+
+  <g filter="url(#shadow)"><rect x="946" y="477" width="286" height="278" rx="16" class="card"/></g>
+  <text x="1207" y="512" text-anchor="end" class="heading">نبض بازار</text>
+  <text x="1207" y="534" text-anchor="end" class="small muted">تغییر شاخص این ماه</text>
+  <text x="970" y="573" text-anchor="start" class="tiny muted">تورم دسته‌ای</text>
+  <text x="1207" y="573" text-anchor="end" class="tiny muted">درصد ماهانه</text>
+  <g class="small">
+    <text x="1207" y="609" text-anchor="end">ارز</text><rect x="1010" y="597" width="150" height="11" rx="5" fill="#edf0eb"/><rect x="1010" y="597" width="135" height="11" rx="5" fill="#d97860"/><text x="990" y="608" text-anchor="end" class="tiny" font-weight="700">۷٫۶٪</text>
+    <text x="1207" y="646" text-anchor="end">طلا</text><rect x="1010" y="634" width="150" height="11" rx="5" fill="#edf0eb"/><rect x="1010" y="634" width="128" height="11" rx="5" fill="#dda746"/><text x="990" y="645" text-anchor="end" class="tiny" font-weight="700">۷٫۲٪</text>
+    <text x="1207" y="683" text-anchor="end">خوراک</text><rect x="1010" y="671" width="150" height="11" rx="5" fill="#edf0eb"/><rect x="1010" y="671" width="98" height="11" rx="5" fill="#4d9b70"/><text x="990" y="682" text-anchor="end" class="tiny" font-weight="700">۵٫۵٪</text>
+    <text x="1207" y="720" text-anchor="end">مسکن</text><rect x="1010" y="708" width="150" height="11" rx="5" fill="#edf0eb"/><rect x="1010" y="708" width="77" height="11" rx="5" fill="#5788b8"/><text x="990" y="719" text-anchor="end" class="tiny" font-weight="700">۴٫۳٪</text>
+  </g>
+
+  <!-- Footer insight strip -->
+  <g filter="url(#shadow)"><rect x="340" y="777" width="588" height="180" rx="16" class="card"/></g>
+  <text x="902" y="812" text-anchor="end" class="heading">روند مالی شما</text>
+  <text x="902" y="834" text-anchor="end" class="small muted">قدرت خرید نقدینگی در ۶ ماه اخیر</text>
+  <g stroke="#e4e9e3" stroke-width="1">
+    <path d="M380 872H890M380 899H890M380 926H890"/>
+  </g>
+  <path d="M394 919 C445 914 465 902 495 907 S546 897 578 900 S625 882 656 890 S708 877 741 884 S790 863 821 872 S865 860 884 865 L884 929 L394 929Z" fill="#dcefe6" opacity=".8"/>
+  <path d="M394 919 C445 914 465 902 495 907 S546 897 578 900 S625 882 656 890 S708 877 741 884 S790 863 821 872 S865 860 884 865" fill="none" stroke="#176b63" stroke-width="3" stroke-linecap="round"/>
+  <g fill="#176b63" stroke="#fffefa" stroke-width="2">
+    <circle cx="394" cy="919" r="4"/><circle cx="495" cy="907" r="4"/><circle cx="578" cy="900" r="4"/><circle cx="656" cy="890" r="4"/><circle cx="741" cy="884" r="4"/><circle cx="821" cy="872" r="4"/><circle cx="884" cy="865" r="4"/>
+  </g>
+  <g class="tiny muted">
+    <text x="394" y="948" text-anchor="middle">فروردین</text><text x="495" y="948" text-anchor="middle">اردیبهشت</text><text x="578" y="948" text-anchor="middle">خرداد</text><text x="656" y="948" text-anchor="middle">تیر</text><text x="741" y="948" text-anchor="middle">مرداد</text><text x="821" y="948" text-anchor="middle">شهریور</text><text x="884" y="948" text-anchor="middle">مهر</text>
+  </g>
+  <g filter="url(#shadow)"><rect x="946" y="777" width="286" height="180" rx="16" class="card"/></g>
+  <text x="1207" y="812" text-anchor="end" class="heading">وضعیت دوره</text>
+  <rect x="970" y="831" width="238" height="42" rx="10" fill="#fff5e2"/>
+  <circle cx="1187" cy="852" r="5" fill="#dda746"/>
+  <text x="1172" y="857" text-anchor="end" class="small" font-weight="700">۱ سفارش در انتظار</text>
+  <text x="1207" y="899" text-anchor="end" class="tiny muted">راهنمای این ماه</text>
+  <text x="1207" y="922" text-anchor="end" class="small">پیش از پایان مهلت، سفارش را</text>
+  <text x="1207" y="943" text-anchor="end" class="small">ثبت یا ویرایش کن.</text>
+</svg>

@@ -1,0 +1,39 @@
+{
+  "name": "masir-servat-economy",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "build:client": "npm --prefix client run build",
+    "build:all": "npm run build && npm run build:client",
+    "start": "node dist/main.js",
+    "dev": "tsx watch src/main.ts",
+    "db:create": "tsx src/db/create-database.ts",
+    "migrate": "tsx src/db/migrate.ts",
+    "verify:infra": "tsx src/db/verify-infrastructure.ts",
+    "settle": "tsx src/settle.ts",
+    "test": "tsx --test test/*.test.ts"
+  },
+  "dependencies": {
+    "@nestjs/common": "^11.0.0",
+    "@nestjs/core": "^11.0.0",
+    "@nestjs/platform-express": "^11.0.0",
+    "@nestjs/platform-socket.io": "^11.2.7",
+    "@nestjs/websockets": "^11.2.7",
+    "@socket.io/redis-adapter": "^8.3.0",
+    "bullmq": "^5.81.5",
+    "dotenv": "^18.0.8",
+    "ioredis": "^5.11.1",
+    "pg": "^8.13.0",
+    "reflect-metadata": "^0.2.2",
+    "rxjs": "^7.8.0",
+    "socket.io": "^4.8.4"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "^0.5.10",
+    "@types/node": "^24.0.0",
+    "@types/pg": "^8.11.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.0"
+  }
+}
